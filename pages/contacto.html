@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <!--Comienzo meta Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon"><!-- Fin meta Favicon -->
+    <link rel="stylesheet" href="../styles.css">
+    <!--LINK CSS-->
+    <title>Inicio - Igui Adrogue</title>
+</head>
+
+<body>
+    <!-------------------------------------------HEADER------------------------------------------------->
+    <header class="header">
+        <h1><a title="Inicio" href="../index.html"><img src="../img/igui-logo-143x98.png" alt="Logo Piscinas Igui"></a>
+        </h1>
+        <nav class="nav__header">
+            <ul>
+                <li><a href="./piscinas.html">Piscinas</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-------------------------------------------MAIN--------------------------------------------------->
+    <main>
+        <section>
+            <article>
+                <h2 class="section__titulo__piscinas">Contactenos</h2>
+                <form class="formulario__contacto">
+                    <label class="campo__contacto" for="campo-nombre"></label>
+                    <input  class="campo__contacto" type="text" id="campo-nombre" placeholder="Nombre*" required>
+
+                    <label  class="campo__contacto" for="campo-mail"></label>
+                    <input  class="campo__contacto" type="email" id="campo-mail" placeholder="Email">
+
+                    <label  class="campo__contacto" for="campo-tel"></label>
+                    <input  class="campo__contacto" type="tel" id="campo-tel" placeholder="Telefono*" required>
+
+                    <label  class="campo__contacto" for="campo-checkbox">Desea recibir informacion sobre descuentos y ofertas vigentes</label>
+                    <input  class="campo__contacto" type="checkbox" id="campo-checkbox">
+
+                    <label  class="campo__contacto" for="campo-zona">Zona</label>
+                    <select class="campo__contacto" name="campo-zona" id="campo-zona" required>
+                        <option value="">CABA</option>
+                        <option value="">GBA</option>
+                    </select>
+                    <label  class="campo__contacto" for="campo-localidad"></label>
+                    <input  class="campo__contacto" type="text" id="campo-localidad" placeholder="Localidad*" required>
+
+                    <label  class="campo__contacto" for="campo-mensaje"></label>
+                    <textarea  class="campo__contacto" id="campo-mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                    <input  class="campo__contacto" type="submit" value="Enviar Mensaje">
+
+                    <input  class="campo__contacto" type="reset" value="Borrar Formulario">
+                </form>
+            </article>
+        </section>
+    </main>
+    <!-------------------------------------------FOOTER------------------------------------------------->
+    <footer class=footer>
+        <div class="nav__footer">
+            <ul>
+                <li><a href="https://www.facebook.com/iguiadroguearg" target="_blank"><img
+                            src="../img/facebook-50x50.png" alt="Logo de facebook"></li>
+                <li><a href="https://instagram.com/iguiadrogue?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            src="../img/instagram-50x50.png" alt="Logo de instagram"></li>
+                <li><a href="https://api.whatsapp.com/send?phone=541121919548&app=facebook&entry_point=page_cta&fbclid=IwAR0TVmdm46mCOvqpIyFeCo7BywsJ8zLkxJYXUjYyT4v8keY4ovjJSurju5w"
+                        target="_blank"><img src="../img/whatsapp-50x50.png" alt="Logo de whatsapp"></li>
+            </ul>
+        </div>
+        <a href="./contacto.html">Contactenos</a>
+
+        <p>Copyright © 2022 iGUi Adrogue. Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
