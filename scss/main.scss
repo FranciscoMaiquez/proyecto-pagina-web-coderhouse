@@ -1,0 +1,61 @@
+/* INDEX */
+
+.grid__contenedor__index {
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 60vh 15vh 10vh;
+    grid-template-areas:
+        "header"
+        "imagen"
+        "productos"
+        "footer";
+}
+
+.section__index-fondo {
+
+    height: 60vh;
+    width: 100%;
+    background-image: url(./img/img-index.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden ;
+}
+
+.section__index-fondo:hover {
+    -webkit-transform:scale(1.3);transform:scale(0.9);}
+
+    
+@media (min-width: 1024px) {
+    .section__index-fondo {
+        height: calc(100vh - 15vh);
+        background-image: url(../img/img-index.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.section__index-fondo h2 {
+    color: rgba(0, 0, 0, 0.77);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section__index-fondo-input {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.grid__contenedor__index {
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 60vh 15vh 10vh;
+    grid-template-areas:
+        "header"
+        "imagen"
+        "productos"
+        "footer";
+}
